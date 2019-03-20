@@ -1,3 +1,9 @@
+#requirement: xlwt math os sys (pip install xxx yyy zzz)
+#usage: python table_convert.py path_to_txt path_to_xls
+#default: path_to_txt = "abc.txt"
+#         path_to_xls = "abc.xls"
+#         table_width = 18
+
 import xlwt
 #import openpyxl
 import math
